@@ -21,6 +21,7 @@
   skillsTips:
     tips: 技能
     title: 开启创造力
+    img: https://jsd.cdn.zzko.cn/gh/Lbb886/picx-images-hosting@master/1.4uaxndgssv.webp
   careers:
     tips: 生涯
     title: 无限进步
@@ -42,11 +43,11 @@
     selfInfoTips3: 
     selfInfoContent3: 学生👨‍🎓
   personalities:
-    author_name: 内向
-    personality_type: 
+    author_name: 调停者
+    personality_type: INFP-T
     photo_url: https://jsd.cdn.zzko.cn/gh/Lbb886/picx-images-hosting@master/1.491a118sco.webp
-    personality_img: 
-    name_url: 
+    personality_img: https://jsd.cdn.zzko.cn/gh/Lbb886/picx-images-hosting@master/1.99tcsmiwyr.webp
+    name_url: https://www.16personalities.com/ch/infp-%E4%BA%BA%E6%A0%BC
   like:
     like_tips: 关注偏好
     like_title: 数码科技
@@ -67,16 +68,15 @@
     buff_bottom: 
   game:
     game_tips: 爱好游戏
-    game_title: 
-    game_uid: ""
-    game_bg: 
+    game_title: CSGO
+    game_uid: "LBB(下饭版)"
+    game_bg: https://jsd.cdn.zzko.cn/gh/Lbb886/picx-images-hosting@master/1.1vynjv2fuc.webp
   comic:
-    comic_tips: 爱好番剧
-    comic_title: 追番
+    comic_tips: 爱好妹子
+    comic_title: 写真
     comic_list:
-      - name: 
-        href: 
-        cover: 
+      - name: 美女
+        cover: https://jsd.cdn.zzko.cn/gh/Lbb886/picx-images-hosting@master/1.2h8b660b6j.webp
   reward_list:
     - name: lbb
       amount: 99
