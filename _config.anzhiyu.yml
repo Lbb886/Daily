@@ -1056,7 +1056,7 @@ home_top:
   siteText: anheyu.com
   category:
     - name: 友人
-      path: /links/
+      path: /link/
       shadow: var(--anzhiyu-shadow-blue)
       class: blue
       icon: anzhiyu-icon-dove
@@ -1066,7 +1066,7 @@ home_top:
       class: red
       icon: anzhiyu-icon-fire
     - name: 闲言碎语
-      path: /essays/
+      path: /essay/
       shadow: var(--anzhiyu-shadow-green)
       class: green
       icon: anzhiyu-icon-book

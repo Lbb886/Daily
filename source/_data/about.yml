@@ -21,7 +21,6 @@
   skillsTips:
     tips: 技能
     title: 开启创造力
-    img: https://jsd.cdn.zzko.cn/gh/Lbb886/picx-images-hosting@master/1.4uaxndgssv.webp
   careers:
     tips: 生涯
     title: 无限进步
@@ -56,7 +55,7 @@
   music:
     music_tips: 音乐偏好
     music_title: 薛之谦
-    music_bg: https://p2.music.126.net/Mrg1i7DwcwjWBvQPIMt_Mg==/79164837213438.jpg
+    music_bg: https://jsd.cdn.zzko.cn/gh/Lbb886/picx-images-hosting@master/1.m2r9ld9g.webp
     music_link: /music
   maxim:
     maxim_tips: 座右铭
@@ -75,6 +74,10 @@
     comic_tips: 爱好妹子
     comic_title: 写真
     comic_list:
+      - name: 美女
+        cover: https://jsd.cdn.zzko.cn/gh/Lbb886/picx-images-hosting@master/1.2h8b660b6j.webp
+      - name: 美女
+        cover: https://jsd.cdn.zzko.cn/gh/Lbb886/picx-images-hosting@master/1.2h8b660b6j.webp
       - name: 美女
         cover: https://jsd.cdn.zzko.cn/gh/Lbb886/picx-images-hosting@master/1.2h8b660b6j.webp
   reward_list:
