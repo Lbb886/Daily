@@ -24,15 +24,16 @@
   careers:
     tips: 生涯
     title: 无限进步
+    img: https://jsd.cdn.zzko.cn/gh/Lbb886/picx-images-hosting@master/1.m2r72hlv.webp
   statistic:
     link: /archives
     text: 文章隧道
-    cover: 
+    cover: https://jsd.cdn.zzko.cn/gh/Lbb886/picx-images-hosting@master/1.67xgrcqihq.webp
   map:
     title: 我现在住在
     StrengthenTitle: 中国，南昌
-    background: 
-    backgroundDark: 
+    background: https://jsd.cdn.zzko.cn/gh/Lbb886/picx-images-hosting@master/1.5q7f2s9jn7.webp
+    backgroundDark: https://jsd.cdn.zzko.cn/gh/Lbb886/picx-images-hosting@master/1.8hghauw3lk.webp
   selfInfo:
     selfInfoTips1: 生于
     selfInfoContentYear: 2005
@@ -41,9 +42,9 @@
     selfInfoTips3: 
     selfInfoContent3: 学生👨‍🎓
   personalities:
-    author_name: 
+    author_name: 内向
     personality_type: 
-    photo_url: 
+    photo_url: https://jsd.cdn.zzko.cn/gh/Lbb886/picx-images-hosting@master/1.491a118sco.webp
     personality_img: 
     name_url: 
   like:
