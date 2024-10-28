@@ -360,7 +360,7 @@ waline:
 # Twikoo
 # https://github.com/imaegoo/twikoo
 twikoo:
-  envId: https://twikoo.52013146.xyz
+  envId: https://twikoo.gob.us.kg
   region:
   visitor: false
   option:
