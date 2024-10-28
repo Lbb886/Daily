@@ -16,7 +16,7 @@ categories:
   - 协作软件
   - 绘图工具
   - 开源项目
-cover: 'https://jsd.cdn.zzko.cn/gh/Lbb886/picx-images-hosting@master/1.lvqdarfgh.webp'
+cover: 'https://Lbb886.github.io/picx-images-hosting/1.lvqdarfgh.webp'
 abbrlink: 15126
 date: 2024-10-27 10:54:59
 ---

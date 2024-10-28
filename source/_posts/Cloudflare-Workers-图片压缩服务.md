@@ -12,7 +12,7 @@ categories:
   - 边缘计算
   - 图片处理
   - 无服务器架构
-cover: 'https://jsd.cdn.zzko.cn/gh/Lbb886/picx-images-hosting@master/1.2krx2vrzoy.webp'
+cover: 'https://Lbb886.github.io/picx-images-hosting/1.2krx2vrzoy.webp'
 abbrlink: 45395
 date: 2024-10-26 22:15:41
 ---

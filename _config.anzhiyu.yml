@@ -140,7 +140,7 @@ favicon: /favicon.ico
 
 # Avatar (头像)
 avatar:
-  img: https://jsd.cdn.zzko.cn/gh/Lbb886/picx-images-hosting@master/avatar.webp
+  img: https://Lbb886.github.io/picx-images-hosting/avatar.webp
   effect: false
 
 # Disable all banner image
@@ -173,7 +173,7 @@ error_img:
 error_404:
   enable: true
   subtitle: "没找到哦"
-  background: https://jsd.cdn.zzko.cn/gh/Lbb886/picx-images-hosting@master/1.4uaxnbikj2.webp
+  background: https://Lbb886.github.io/picx-images-hosting/1.4uaxnbikj2.webp
 
 post_meta:
   page: # Home Page
@@ -792,7 +792,7 @@ preloader:
   source: 3
   # pace theme (see https://codebyzach.github.io/pace/)
   pace_css_url:
-  avatar: https://jsd.cdn.zzko.cn/gh/Lbb886/picx-images-hosting@master/avatar.webp # 自定加载动画义头像
+  avatar: https://Lbb886.github.io/picx-images-hosting/avatar.webp # 自定加载动画义头像
 
 # aside (侧边栏)
 # --------------------------------------

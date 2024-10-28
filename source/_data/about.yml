@@ -1,6 +1,6 @@
 - class_name: 关于页
   subtitle: 生活明朗，万物可爱✨
-  avatarImg: https://jsd.cdn.zzko.cn/gh/Lbb886/picx-images-hosting@master/avatar.webp
+  avatarImg: https://Lbb886.github.io/picx-images-hosting/avatar.webp
   avatarSkills:
     left:
       - 🤖️ 数码科技爱好者
@@ -24,16 +24,16 @@
   careers:
     tips: 生涯
     title: 无限进步
-    img: https://jsd.cdn.zzko.cn/gh/Lbb886/picx-images-hosting@master/1.m2r72hlv.webp
+    img: https://Lbb886.github.io/picx-images-hosting/1.m2r72hlv.webp
   statistic:
     link: /archives
     text: 文章隧道
-    cover: https://jsd.cdn.zzko.cn/gh/Lbb886/picx-images-hosting@master/1.67xgrcqihq.webp
+    cover: https://Lbb886.github.io/picx-images-hosting/1.67xgrcqihq.webp
   map:
     title: 我现在住在
     StrengthenTitle: 中国，南昌
-    background: https://jsd.cdn.zzko.cn/gh/Lbb886/picx-images-hosting@master/1.5q7f2s9jn7.webp
-    backgroundDark: https://jsd.cdn.zzko.cn/gh/Lbb886/picx-images-hosting@master/1.8hghauw3lk.webp
+    background: https://Lbb886.github.io/picx-images-hosting/1.5q7f2s9jn7.webp
+    backgroundDark: https://Lbb886.github.io/picx-images-hosting/1.8hghauw3lk.webp
   selfInfo:
     selfInfoTips1: 生于
     selfInfoContentYear: 2005
@@ -44,8 +44,8 @@
   personalities:
     author_name: 调停者
     personality_type: INFP-T
-    photo_url: https://jsd.cdn.zzko.cn/gh/Lbb886/picx-images-hosting@master/1.491a118sco.webp
-    personality_img: https://jsd.cdn.zzko.cn/gh/Lbb886/picx-images-hosting@master/1.99tcsmiwyr.webp
+    photo_url: https://Lbb886.github.io/picx-images-hosting/1.491a118sco.webp
+    personality_img: https://Lbb886.github.io/picx-images-hosting/1.99tcsmiwyr.webp
     name_url: https://www.16personalities.com/ch/infp-%E4%BA%BA%E6%A0%BC
   like:
     like_tips: 关注偏好
@@ -55,7 +55,7 @@
   music:
     music_tips: 音乐偏好
     music_title: 薛之谦
-    music_bg: https://jsd.cdn.zzko.cn/gh/Lbb886/picx-images-hosting@master/1.m2r9ld9g.webp
+    music_bg: https://Lbb886.github.io/picx-images-hosting/1.m2r9ld9g.webp
     music_link: /music
   maxim:
     maxim_tips: 座右铭
@@ -69,17 +69,17 @@
     game_tips: 爱好游戏
     game_title: CSGO
     game_uid: "LBB(下饭版)"
-    game_bg: https://jsd.cdn.zzko.cn/gh/Lbb886/picx-images-hosting@master/1.1vynjv2fuc.webp
+    game_bg: https://Lbb886.github.io/picx-images-hosting/1.1vynjv2fuc.webp
   comic:
     comic_tips: 爱好妹子
     comic_title: 写真
     comic_list:
       - name: 美女
-        cover: https://jsd.cdn.zzko.cn/gh/Lbb886/picx-images-hosting@master/1.2h8b660b6j.webp
+        cover: 
       - name: 美女
-        cover: https://jsd.cdn.zzko.cn/gh/Lbb886/picx-images-hosting@master/1.2h8b660b6j.webp
+        cover: 
       - name: 美女
-        cover: https://jsd.cdn.zzko.cn/gh/Lbb886/picx-images-hosting@master/1.2h8b660b6j.webp
+        cover: https://Lbb886.github.io/picx-images-hosting/1.2h8b660b6j.webp
   reward_list:
     - name: lbb
       amount: 99
