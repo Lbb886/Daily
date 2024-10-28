@@ -13,7 +13,7 @@ categories:
   - 开发工具
   - API
   - 云服务
-cover: 'https://Lbb886.github.io/picx-images-hosting/1.lvqdi6i3s.webp'
+cover: 'https://lbb886.nyc.mn/1.lvqdi6i3s.webp'
 abbrlink: 46801
 date: 2024-10-27 14:28:21
 ---

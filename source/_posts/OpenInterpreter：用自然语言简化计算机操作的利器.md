@@ -18,7 +18,7 @@ categories:
   - 自然语言处理
 abbrlink: 19457
 date: 2024-10-26 00:24:03
-cover: https://Lbb886.github.io/picx-images-hosting/1.lvqch5ad9.webp
+cover: https://lbb886.nyc.mn/1.lvqch5ad9.webp
 ---
 
 ### 探索OpenInterpreter：简化计算机操作的自然语言接口
