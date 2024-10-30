@@ -246,11 +246,11 @@ post_copyright:
 reward:
   enable: false
   QR_code:
-    - img: https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-weichat.png
-      link:
+    - img: 
+      link: https://lbb886.nyc.mn/wx.webp
       text: 微信
-    - img: https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-alipay.png
-      link:
+    - img: 
+      link: https://lbb886.nyc.mn/zfb.webp
       text: 支付宝
 
 # Post edit
