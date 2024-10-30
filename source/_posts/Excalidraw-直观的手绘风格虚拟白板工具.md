@@ -35,7 +35,7 @@ Excalidraw 是一个虚拟白板工具，旨在帮助用户快速创建手绘风
 - **多平台支持**：可以在 web 浏览器中使用，也有桌面和移动端应用。
 
 ### 项目地址
-你可以在 GitHub 上找到 Excalidraw 项目：[Excalidraw GitHub](https://github.com/excalidraw/excalidraw)
+你可以在 GitHub 上找到 Excalidraw 项目：[Excalidraw](https://github.com/excalidraw/excalidraw)
 
 ### 预览截图
 ![Excalidraw 示例](https://camo.githubusercontent.com/6ec32694af5608860f01a5ca63d55ea6f28eaa3caec10e0cb86d9d1936c43bf4/68747470733a2f2f657863616c69647261772e6e7963332e63646e2e6469676974616c6f6365616e7370616365732e636f6d2f67697468756225324670726f647563745f73686f77636173652e706e67)
