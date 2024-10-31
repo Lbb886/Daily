@@ -18,7 +18,7 @@ menu:
   关于:
     关于本人: /about/ || anzhiyu-icon-paper-plane
     闲言碎语: /essay/ || anzhiyu-icon-lightbulb
-  #   随便逛逛: javascript:toRandomPost() || anzhiyu-icon-shoe-prints1
+    随便逛逛: javascript:toRandomPost() || anzhiyu-icon-shoe-prints1
 
 # nav相关配置
 nav:
@@ -28,13 +28,13 @@ nav:
   menu:
     - title: 网页
       item:
-        - name: 安知鱼博客
-          link: https://blog.anheyu.com/
+        - name: 主页
+          link: https://www.gob.us.kg/
           icon: /img/favicon.ico
     - title: 项目
       item:
-        - name: 安知鱼图床
-          link: https://image.anheyu.com/
+        - name: LBB图床
+          link: https://lbb.cloudns.be/
           icon: https://image.anheyu.com/favicon.ico
 
 # mourn （哀悼日，指定日期网站简单变灰，不包括滚动条）
