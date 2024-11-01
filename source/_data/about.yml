@@ -75,11 +75,19 @@
     comic_title: 写真
     comic_list:
       - name: 美女
-        cover: 
+        cover: https://lbb886.nyc.mn/1.1sf1tqx4yu.webp
       - name: 美女
-        cover: 
+        cover: https://lbb886.nyc.mn/1.9dcyxy3y3f.webp
       - name: 美女
-        cover: https://lbb886.nyc.mn/1.2h8b660b6j.webp
+        cover: https://lbb886.nyc.mn/1.6wqqj0ugxm.webp
+      - name: 美女
+        cover: https://lbb886.nyc.mn/1.3uuuhst4qg.webp
+      - name: 美女
+        cover: https://lbb886.nyc.mn/1.9nzsr3gky4.webp
+      - name: 美女
+        cover: https://lbb886.nyc.mn/1.83a1rmjdhb.webp
+      - name: 美女
+        cover: https://lbb886.nyc.mn/1.83a1rmjdh9.webp
   reward_list:
     - name: lbb
       amount: 99
