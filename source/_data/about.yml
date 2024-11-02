@@ -55,7 +55,7 @@
   music:
     music_tips: 音乐偏好
     music_title: 薛之谦
-    music_bg: https://lbb886.nyc.mn/1.m2r9ld9g.webp
+    music_bg: https://lbb886.nyc.mn/1.2dopgxg5o3.webp
     music_link: /music
   maxim:
     maxim_tips: 座右铭
@@ -86,8 +86,6 @@
         cover: https://lbb886.nyc.mn/1.9nzsr3gky4.webp
       - name: 美女
         cover: https://lbb886.nyc.mn/1.83a1rmjdhb.webp
-      - name: 美女
-        cover: https://lbb886.nyc.mn/1.83a1rmjdh9.webp
   reward_list:
     - name: lbb
       amount: 99
