@@ -11,7 +11,7 @@ categories:
   - Cloudflare
   - 网络性能
   - JavaScript
-cover: 'https://i.gob.us.kg/2024/11/03/096033.webp'
+cover: 'https://i.gob.us.kg/2024/11/03/396273.png'
 abbrlink: 29222
 date: 2024-11-03 09:24:33
 ---
