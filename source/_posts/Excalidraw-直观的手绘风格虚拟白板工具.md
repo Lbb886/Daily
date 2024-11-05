@@ -1,20 +1,11 @@
 ---
 title: 'Excalidraw: 直观的手绘风格虚拟白板工具'
 tags:
-  - 手绘风格
-  - 实时协作
   - 虚拟白板
   - 开源
-  - 离线模式
-  - 多平台支持
-  - 团队协作
-  - 图表制作
-  - 流程图
   - 草图
 categories:
   - 工具类
-  - 协作软件
-  - 绘图工具
   - 开源项目
 cover: 'https://lbb886.nyc.mn/1.lvqdarfgh.webp'
 abbrlink: 15126

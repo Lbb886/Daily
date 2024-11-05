@@ -4,11 +4,8 @@ tags:
   - Twitter
   - 爬虫
   - 数据分析
-  - Python
-  - 开源
 categories:
   - 数据科学
-  - 社交媒体
   - 开源项目
 cover: 'https://lbb886.nyc.mn/1.7egs4r0lzf.webp'
 abbrlink: 19806

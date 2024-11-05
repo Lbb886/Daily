@@ -1,16 +1,12 @@
 ---
 title: 如何使用 Cloudflare Worker 实现延迟测试工具
 tags:
-  - Cloudflare Worker
+  - Cloudflare Workers
   - 延迟测试
-  - 网络性能优化
   - 前端开发
-  - JavaScript 教程
 categories:
-  - Web 开发
-  - Cloudflare
   - 网络性能
-  - JavaScript
+  - 教程
 cover: 'https://i.gob.us.kg/2024/11/03/396273.png'
 abbrlink: 29222
 date: 2024-11-03 09:24:33

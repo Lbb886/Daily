@@ -1,21 +1,14 @@
 ---
 title: OpenInterpreter：用自然语言简化计算机操作的利器
 tags:
-  - OpenInterpreter
-  - 自然语言接口
   - 计算机操作
   - 自动化
-  - 开源项目
-  - 人工智能
+  - 开源
   - 自然语言处理 (NLP)
-  - 用户友好
-  - 高效工作
-  - 跨平台支持
 categories:
   - 技术
   - 软件
-  - 人工智能
-  - 自然语言处理
+  - 开源项目
 cover: 'https://lbb886.nyc.mn/1.lvqch5ad9.webp'
 abbrlink: 19457
 date: 2024-10-26 00:24:03

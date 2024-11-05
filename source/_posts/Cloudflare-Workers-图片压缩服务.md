@@ -4,12 +4,7 @@ tags:
   - 图片压缩
   - Cloudflare Workers
   - 无服务器
-  - JavaScript
-  - 文件上传
-  - Web 服务
 categories:
-  - Web 开发
-  - 边缘计算
   - 图片处理
   - 无服务器架构
 cover: 'https://lbb886.nyc.mn/1.2krx2vrzoy.webp'
