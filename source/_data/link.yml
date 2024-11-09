@@ -23,23 +23,26 @@
       descr: 生活明朗，万物可爱
       siteshot: https://npm.elemecdn.com/anzhiyu-theme-static@1.1.6/img/blog.anheyu.com.jpg
       color: vip
-      tag: 大佬
+      tag: 荐
     
     - name: 清羽飞扬
       link: https://blog.liushen.fun/
       avatar: https://blog.liushen.fun/info/avatar.ico
       descr: 柳影曳曳，清酒孤灯，扬笔撒墨，心境如霜
       siteshot: https://blog.liushen.fun/info/siteshot.jpg
-      color: vip
-      tag: 大佬
+      recommend: true
     
     - name: XingJiのBlog
       link: https://love.xingji.fun/
       avatar: https://i.p-i.vip/47/20240920-66ed7b168c38c.jpg
       descr: 迄今所有人生都大写着失败，但不妨碍我继续向前✨
       siteshot: https://i.p-i.vip/47/20240920-66ed7b6730ca9.png
-      color: 
-      tag: 
+    
+    - name: 竹山一叶
+      link: https://zsyyblog.com
+      avatar: https://img.zsyyblog.com/favicon.jpg
+      descr: 来了就不想走的小家
+      siteshot: https://img.zsyyblog.com/siteshot.png
 
 - class_name: 小伙伴
   class_desc: 那些人，那些事
