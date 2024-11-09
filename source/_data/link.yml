@@ -38,14 +38,20 @@
       avatar: https://i.p-i.vip/47/20240920-66ed7b168c38c.jpg
       descr: 迄今所有人生都大写着失败，但不妨碍我继续向前✨
       siteshot: https://i.p-i.vip/47/20240920-66ed7b6730ca9.png
-      color: vip
-      tag: 大佬
+      color: 
+      tag: 
 
 - class_name: 小伙伴
   class_desc: 那些人，那些事
   flink_style: anzhiyu
   hundredSuffix: ""
   link_list:
+    - name: 海拥
+      link: https://haiyong.site
+      avatar: https://haiyong.site/img/favicon.png
+      descr: 一枚乐于分享技术与快乐的博主
+      recommend: true
+    
     - name: 一粒微尘
       link: https://blog.667408.xyz
       avatar: https://blog.667408.xyz/favicon.ico
