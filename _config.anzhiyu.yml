@@ -1121,7 +1121,7 @@ comment_barrage_config:
   # 弹幕显示间隔时间ms
   barrageTime: 4000
   # token，在控制台中获取
-  accessToken: "ef948b13b2db4ebe8f999617f393f166"
+  accessToken: "ccdf811f37c04450badf1ef64e4886af"
   # 博主邮箱md5值
   mailMd5: "1a56331ba53ae53aebf8114ebd62e804"
 

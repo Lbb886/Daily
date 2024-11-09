@@ -52,11 +52,20 @@ jobs:
           hexo clean
           hexo generate
       
-      - name: 部署到Github
+      - name: 部署到public分支
         uses: JamesIves/github-pages-deploy-action@v4.6.4
         with:
           token: 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
           repository-name: Lbb886/Daily
           branch: public
+          folder: public
+          commit-message: "${{ github.event.head_commit.message }} Updated By Github Actions"
+
+      - name: 部署到Github pages
+        uses: JamesIves/github-pages-deploy-action@v4.6.4
+        with:
+          token: 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
+          repository-name: Lbb886/Lbb886.github.io
+          branch: main
           folder: public
           commit-message: "${{ github.event.head_commit.message }} Updated By Github Actions"
