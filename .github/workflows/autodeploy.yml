@@ -46,10 +46,12 @@ jobs:
         if: ${{ steps.cache-npm.outputs.cache-hit != 'true' }}
         run: |
           npm install --save
+          npm i yamljs --save
       
       - name: 生成静态文件
         run: |
           hexo clean
+          node link.js
           hexo generate
       
       - name: 部署到public分支
