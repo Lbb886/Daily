@@ -482,9 +482,9 @@ footer:
       # - title: 抖音
       #   link: https://v.douyin.com/DwCpMEy/
       #   icon: anzhiyu-icon-tiktok
-      - title: CC
-        link: /copyright
-        icon: anzhiyu-icon-copyright-line
+      # - title: CC
+      #   link: /copyright
+      #   icon: anzhiyu-icon-copyright-line
   list:
     enable: true
     randomFriends: 3
