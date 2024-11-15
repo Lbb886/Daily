@@ -167,7 +167,7 @@ resultElement.innerHTML += '<br>' + cfPagesMessage + '<br>' + vercelMessage;
 结果动画示例：
 ![结果动画示例](https://i.gob.us.kg/2024/11/03/302980.webp)
 
-### 6. 完整代码
+### 6. 完整代码 (2024-11-15优化了一下代码)
 
 将所有部分结合在一起，以下是完整的 Cloudflare Worker 代码：
 
@@ -195,6 +195,7 @@ async function handleRequest(request) {
                 flex-direction: column;
                 margin: 0;
             }
+
             .loader {
                 border: 16px solid #f3f3f3;
                 border-radius: 50%;
@@ -203,10 +204,12 @@ async function handleRequest(request) {
                 height: 120px;
                 animation: spin 2s linear infinite;
             }
+
             @keyframes spin {
                 0% { transform: rotate(0deg); }
                 100% { transform: rotate(360deg); }
             }
+
             #result {
                 display: none;
                 opacity: 0;
@@ -215,6 +218,7 @@ async function handleRequest(request) {
                 font-size: 20px;
                 color: #3498db;
             }
+
             @keyframes backgroundAnimation {
                 0% { background-color: #ffffff; }
                 100% { background-color: #f3f3f3; }
@@ -225,29 +229,44 @@ async function handleRequest(request) {
         <div class="loader" id="loader"></div>
         <div id="result"></div>
         <script>
-            async function measureLatency(url) {
-                const start = Date.now();
-                try {
-                    await fetch(url, { method: 'HEAD' });
-                    return Date.now() - start;
-                } catch (error) {
-                    console.error('Error measuring latency:', error);
-                    return Infinity; // Treat failures as the worst latency
+            async function measureLatency(url, retries = 3) {
+                let latency = Infinity; // 初始化为最大值
+                for (let i = 0; i < retries; i++) {
+                    const start = Date.now();
+                    try {
+                        await fetch(url, { method: 'HEAD' });
+                        latency = Date.now() - start;
+                        break; // 如果成功，跳出循环
+                    } catch (error) {
+                        console.warn(\`Retry \${i + 1} failed for \${url}\`);
+                    }
                 }
+                return latency;
             }
 
             function getColorForLatency(latency) {
                 if (latency < 100) return 'green';
-                else if (latency < 300) return 'orange';
-                else return 'red';
+                if (latency < 300) return 'orange';
+                return 'red';
             }
 
             async function testLatency() {
-                const cfPagesUrl = 'https://666.com';
-                const vercelUrl = 'https://888.com';
+                const urls = [
+                    { name: 'CF Pages', url: 'https://cf.666.com/' },
+                    { name: 'Vercel', url: 'https://vc.888.com/' },
+                    { name: 'GitHub', url: 'https://gh.666.com/' },
+                    { name: 'Netlify', url: 'https://nl.888.com/' },
+                    { name: '备用', url: 'https://blog.666.com/' }
+                ];
 
-                const cfPagesLatency = await measureLatency(cfPagesUrl);
-                const vercelLatency = await measureLatency(vercelUrl);
+                const results = await Promise.all(
+                    urls.map(async ({ name, url }) => {
+                        const latency = await measureLatency(url);
+                        return { name, url, latency };
+                    })
+                );
+
+                results.sort((a, b) => a.latency - b.latency);
 
                 const resultElement = document.getElementById('result');
                 const loaderElement = document.getElementById('loader');
@@ -255,27 +274,19 @@ async function handleRequest(request) {
                 loaderElement.style.display = 'none';
                 resultElement.style.display = 'block';
 
-                let targetUrl;
-                if (cfPagesLatency < vercelLatency) {
-                    resultElement.innerText = 'Redirecting to CF Pages...';
-                    targetUrl = cfPagesUrl;
-                } else {
-                    resultElement.innerText = 'Redirecting to Vercel...';
-                    targetUrl = vercelUrl;
-                }
+                results.forEach(({ name, latency }) => {
+                    resultElement.innerHTML += \`\${name} 延迟: <span style="color:\${getColorForLatency(latency)};">\${latency} ms</span><br>\`;
+                });
 
-                const cfPagesMessage = \`CF Pages 延迟: <span style="color:\${getColorForLatency(cfPagesLatency)};">\${cfPagesLatency} ms</span>\`;
-                const vercelMessage = \`Vercel 延迟: <span style="color:\${getColorForLatency(vercelLatency)};">\${vercelLatency} ms</span>\`;
-                resultElement.innerHTML += '<br>' + cfPagesMessage + '<br>' + vercelMessage;
+                const bestOption = results[0];
+                resultElement.innerHTML += '<br>Redirecting to ' + bestOption.name + '...';
 
                 setTimeout(() => {
                     resultElement.style.opacity = 1;
-                    setTimeout
-
-(() => {
-                        window.location.href = targetUrl;
-                    }, 2000); // 2秒后跳转
-                }, 100); // 轻微延迟后显示结果
+                    setTimeout(() => {
+                        window.location.href = bestOption.url;
+                    }, 2000);
+                }, 100);
             }
 
             window.onload = testLatency;
@@ -290,6 +301,21 @@ async function handleRequest(request) {
 ```
 
 ## 运行和测试
+
+如需要增加或修改 URL，只需要修改 `urls` 数组。如下面代码中，我们添加了两个 URL：
+
+```javascript
+async function testLatency() {
+                const urls = [
+                    { name: 'CF Pages', url: 'https://cf.666.com/' },
+                    { name: 'Vercel', url: 'https://vc.888.com/' },
+                    { name: 'GitHub', url: 'https://gh.666.com/' },
+                    { name: 'Netlify', url: 'https://nl.888.com/' },
+                    { name: '备用', url: 'https://blog.666.com/' },
+                    { name: '新URL1', url: 'https://newurl1.com/' },
+                    { name: '新URL2', url: 'https://newurl2.com/' }
+                ];
+```
 
 完成上述步骤后，保存并部署你的 Worker。打开分配给你的 Worker 的 URL，你应该能看到加载动画，随后页面将显示测量的延迟和重定向信息。
 
