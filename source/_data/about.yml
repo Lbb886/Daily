@@ -1,6 +1,6 @@
 - class_name: 关于页
   subtitle: 生活明朗，万物可爱✨
-  avatarImg: https://lbb886.nyc.mn/avatar.webp
+  avatarImg: https://i.gob.us.kg/2024/11/02/950540.webp
   avatarSkills:
     left:
       - 🤖️ 数码科技爱好者
@@ -24,16 +24,16 @@
   careers:
     tips: 生涯
     title: 无限进步
-    img: https://lbb886.nyc.mn/1.m2r72hlv.webp
+    img: https://i.gob.us.kg/2024/10/27/440898.webp
   statistic:
     link: /archives
     text: 文章隧道
-    cover: https://lbb886.nyc.mn/1.67xgrcqihq.webp
+    cover: https://i.gob.us.kg/2024/10/27/524779.webp
   map:
     title: 我现在住在
     StrengthenTitle: 中国，南昌
-    background: https://lbb886.nyc.mn/1.5q7f2s9jn7.webp
-    backgroundDark: https://lbb886.nyc.mn/1.8hghauw3lk.webp
+    background: https://i.gob.us.kg/2024/11/02/311446.png
+    backgroundDark: https://i.gob.us.kg/2024/11/02/382025.png
   selfInfo:
     selfInfoTips1: 生于
     selfInfoContentYear: 2005
@@ -44,18 +44,18 @@
   personalities:
     author_name: 调停者
     personality_type: INFP-T
-    photo_url: https://lbb886.nyc.mn/1.491a118sco.webp
-    personality_img: https://lbb886.nyc.mn/1.99tcsmiwyr.webp
+    photo_url: https://i.gob.us.kg/2024/10/27/157164.webp
+    personality_img: https://i.gob.us.kg/2024/11/02/784890.png
     name_url: https://www.16personalities.com/ch/infp-%E4%BA%BA%E6%A0%BC
   like:
     like_tips: 关注偏好
     like_title: 数码科技
-    like_bg: https://bu.dusays.com/2022/12/06/638f5f05ce1f7.jpg
+    like_bg: https://i.gob.us.kg/2024/11/10/077317.png
     like_bottom: 手机、电脑软硬件
   music:
     music_tips: 音乐偏好
     music_title: 薛之谦
-    music_bg: https://lbb886.nyc.mn/1.2dopgxg5o3.webp
+    music_bg: https://i.gob.us.kg/2024/11/17/479048.webp
     music_link: /music
   maxim:
     maxim_tips: 座右铭
@@ -69,21 +69,21 @@
     game_tips: 爱好游戏
     game_title: CSGO
     game_uid: "LBB(下饭版)"
-    game_bg: https://lbb886.nyc.mn/1.1vynjv2fuc.webp
+    game_bg: https://i.gob.us.kg/2024/10/27/916094.webp
   comic:
     comic_tips: 爱好妹子
     comic_title: 写真
     comic_list:
       - name: 美女
-        cover: https://lbb886.nyc.mn/1.1sf1tqx4yu.webp
+        cover: https://i.gob.us.kg/2024/11/17/471705.webp
       - name: 美女
-        cover: https://lbb886.nyc.mn/1.9dcyxy3y3f.webp
+        cover: https://i.gob.us.kg/2024/11/17/220282.webp
       - name: 美女
-        cover: https://lbb886.nyc.mn/1.6wqqj0ugxm.webp
+        cover: https://i.gob.us.kg/2024/11/17/366430.webp
       - name: 美女
-        cover: https://lbb886.nyc.mn/1.3uuuhst4qg.webp
+        cover: https://i.gob.us.kg/2024/11/17/293430.webp
       - name: 美女
-        cover: https://lbb886.nyc.mn/1.9nzsr3gky4.webp
+        cover: https://i.gob.us.kg/2024/11/17/443070.webp
   reward_list:
     - name: lbb
       amount: 99

@@ -7,7 +7,7 @@ tags:
 categories:
   - 开发工具
   - API
-cover: 'https://lbb886.nyc.mn/1.lvqdi6i3s.webp'
+cover: 'https://i.gob.us.kg/2024/11/02/909440.png'
 abbrlink: 46801
 date: 2024-10-27 14:28:21
 ---

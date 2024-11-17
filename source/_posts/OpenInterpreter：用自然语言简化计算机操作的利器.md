@@ -9,7 +9,7 @@ categories:
   - 技术
   - 软件
   - 开源项目
-cover: 'https://lbb886.nyc.mn/1.lvqch5ad9.webp'
+cover: 'https://i.gob.us.kg/2024/11/02/777530.png'
 abbrlink: 19457
 date: 2024-10-26 00:24:03
 ---

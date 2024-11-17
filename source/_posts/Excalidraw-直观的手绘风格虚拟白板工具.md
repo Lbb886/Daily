@@ -7,7 +7,7 @@ tags:
 categories:
   - 工具类
   - 开源项目
-cover: 'https://lbb886.nyc.mn/1.lvqdarfgh.webp'
+cover: 'https://i.gob.us.kg/2024/11/02/337514.png'
 abbrlink: 15126
 date: 2024-10-27 10:54:59
 ---
