@@ -1240,7 +1240,7 @@ rightClickMenu:
 # 首页随便逛逛people模式 而非技能点模式，关闭后为技能点模式需要配置creativity.yml
 peoplecanvas:
   enable: true
-  img: https://i2.gob.us.kg/file/1731910986558_people.png
+  img: https://jsd.cdn.zzko.cn/gh/Lbb886/picx-images-hosting@master/1.7zqfr1wcpt.webp
 
 # 动效
 dynamicEffect:
