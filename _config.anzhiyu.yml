@@ -805,7 +805,7 @@ aside:
   hide: false
   button: true
   mobile: true # display on mobile
-  position: right # left or right
+  position: left # left or right
   display: # 控制对应详情页面是否显示侧边栏
     archive: true
     tag: true
@@ -1147,7 +1147,7 @@ nav_music:
   id: 8152976493
   server: netease
   volume: 0.7 # 默认音量
-  all_playlist: https://y.qq.com/n/ryqq/playlist/8802438608
+  all_playlist: https://y.qq.com/n/ryqq/playlist/7595923629
 
 # 路径为 /music 的音乐页面默认加载的歌单 1. nav_music 2. custom
 music_page_default: nav_music
