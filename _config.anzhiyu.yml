@@ -451,14 +451,14 @@ footer:
         shields: https://npm.elemecdn.com/anzhiyu-theme-static@1.0.9/img/Theme-AnZhiYu-2E67D3.svg
         message: 本站使用AnZhiYu主题
       - link: https://icp.gov.moe/?keyword=20246090
-        shields: https://i2.gob.us.kg/file/1732776696028_萌ICP备-20246090号-pink.svg
+        shields: https://i2.gob.us.kg/file/1732778534482_萌ICP备-20246090号.svg
         message: 萌ICP备20246090号
       - link: https://github.com/
         shields: https://npm.elemecdn.com/anzhiyu-blog@2.1.5/img/badge/Source-Github.svg
         message: 本站项目由Github托管
-      - link: http://creativecommons.org/licenses/by-nc-sa/4.0/
-        shields: https://npm.elemecdn.com/anzhiyu-blog@2.2.0/img/badge/Copyright-BY-NC-SA.svg
-        message: 本站采用知识共享署名-非商业性使用-相同方式共享4.0国际许可协议进行许可
+      - link: https://travel.moe/go.html?travel=on
+        shields: https://i2.gob.us.kg/file/1732782562641_异次元之旅.svg
+        message: 自动传送哦~
   socialBar:
     enable: true
     centerImg:
@@ -516,14 +516,14 @@ footer:
             link: /fcircle/
           # - title: 留言板
           #   link: /comments/
-      - title: 协议
+      - title: 传送门
         links:
-          - title: 隐私协议
-            link: /privacy/
-          - title: Cookies
-            link: /cookies/
-          - title: 版权协议
-            link: /copyright/
+          - title: 异次元之旅
+            link: https://travel.moe/go.html?travel=on
+          # - title: Cookies
+          #   link: /cookies/
+          # - title: 版权协议
+          #   link: /copyright/
   footerBar:
     enable: true
     authorLink: /
@@ -1232,12 +1232,12 @@ pageThumbnailSuffix: ""
 
 # 隐私协议弹窗
 agreementPopup:
-  enable: false
+  enable: true
   url: /privacy
 
 # 右键菜单
 rightClickMenu:
-  enable: false
+  enable: true
 
 # 首页随便逛逛people模式 而非技能点模式，关闭后为技能点模式需要配置creativity.yml
 peoplecanvas:
