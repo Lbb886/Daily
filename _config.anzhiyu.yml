@@ -22,7 +22,7 @@ menu:
 
 # nav相关配置
 nav:
-  enable: false
+  enable: true
   travelling: false
   clock: false
   menu:
@@ -76,7 +76,7 @@ social:
 author_status:
   enable: true
   # 可以是任何图片，建议放表情包或者emoji图片，效果都很好，[表情包速查](https://emotion.xiaokang.me/)
-  statusImg: "https://bu.dusays.com/2023/08/24/64e6ce9c507bb.png"
+  statusImg: "https://bu.dusays.com/2021/01/15/baed8ffdf806e.gif"
   skills:
     - 🤖️ 数码科技爱好者
     - 🔍 分享与热心帮助
@@ -249,11 +249,11 @@ post_copyright:
 reward:
   enable: true
   QR_code:
-    - img: 
-      link: https://i.gob.us.kg/2024/11/02/891970.png
+    - img: https://i.gob.us.kg/2024/11/02/891970.png
+      link:
       text: 微信
-    - img: 
-      link: https://i.gob.us.kg/2024/11/02/566566.png
+    - img: https://i.gob.us.kg/2024/11/02/566566.png
+      link:
       text: 支付宝
 
 # Post edit
@@ -321,7 +321,7 @@ comments:
   text: true # Display the comment name next to the button
   # lazyload: The comment system will be load when comment element enters the browser's viewport.
   # If you set it to true, the comment count will be invalid
-  lazyload: false
+  lazyload: true
   count: false # Display comment count in post's top_img
   card_post_count: false # Display comment count in Home Page
 
@@ -450,9 +450,9 @@ footer:
       - link: https://blog.anheyu.com/
         shields: https://npm.elemecdn.com/anzhiyu-theme-static@1.0.9/img/Theme-AnZhiYu-2E67D3.svg
         message: 本站使用AnZhiYu主题
-      # - link: https://www.dogecloud.com/
-      #   shields: https://npm.elemecdn.com/anzhiyu-blog@2.2.0/img/badge/CDN-多吉云-3693F3.svg
-      #   message: 本站使用多吉云为静态资源提供CDN加速
+      - link: https://icp.gov.moe/?keyword=20246090
+        shields: https://i2.gob.us.kg/file/1732776696028_萌ICP备-20246090号-pink.svg
+        message: 萌ICP备20246090号
       - link: https://github.com/
         shields: https://npm.elemecdn.com/anzhiyu-blog@2.1.5/img/badge/Source-Github.svg
         message: 本站项目由Github托管
@@ -1026,7 +1026,7 @@ pangu:
 # https://github.com/verlok/vanilla-lazyload
 lazyload:
   enable: true
-  field: site # site/post
+  field: post # site/post
   placeholder:
   blur: true
   progressive: true
@@ -1137,7 +1137,7 @@ comment_barrage_config:
   # 弹幕显示间隔时间ms
   barrageTime: 4000
   # token，在控制台中获取
-  accessToken: "ccdf811f37c04450badf1ef64e4886af"
+  accessToken: "9aa1dd757e5944ddab74c234556afaa8"
   # 博主邮箱md5值
   mailMd5: "1a56331ba53ae53aebf8114ebd62e804"
 
@@ -1242,7 +1242,7 @@ rightClickMenu:
 # 首页随便逛逛people模式 而非技能点模式，关闭后为技能点模式需要配置creativity.yml
 peoplecanvas:
   enable: true
-  img: https://jsd.cdn.zzko.cn/gh/Lbb886/picx-images-hosting@master/1.7zqfr1wcpt.webp
+  img: https://i2.gob.us.kg/file/1732775824222_people.png #https://jsd.cdn.zzko.cn/gh/Lbb886/picx-images-hosting@master/1.7zqfr1wcpt.webp
 
 # 动效
 dynamicEffect:
