@@ -143,7 +143,7 @@ favicon: /favicon.ico
 
 # Avatar (头像)
 avatar:
-  img: https://i.gob.us.kg/2024/11/02/950540.webp
+  img: https://i.gob.us.kg/2024/12/02/534301.webp
   effect: false
 
 # Disable all banner image
@@ -800,7 +800,7 @@ preloader:
   source: 3
   # pace theme (see https://codebyzach.github.io/pace/)
   pace_css_url:
-  avatar: https://i.gob.us.kg/2024/11/02/950540.webp # 自定加载动画义头像
+  avatar: https://i.gob.us.kg/2024/12/02/534301.webp # 自定加载动画义头像
 
 # aside (侧边栏)
 # --------------------------------------
