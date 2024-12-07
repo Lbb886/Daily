@@ -45,7 +45,7 @@ nav:
         - name: ourvps
           link: https://seven.cloudns.be/
           icon: https://i2.gob.us.kg/file/1733598695541_ourvpslogo.svg
-        -  name: Webssh
+        - name: Webssh
           link: https://lbb.serv00.net/
           icon: https://i2.gob.us.kg/file/1733600793276_websshlogo.png
 
