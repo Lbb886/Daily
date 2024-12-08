@@ -1,5 +1,5 @@
 - title: 即刻短文
-  subTitle: 咸鱼的日常生活。
+  subTitle: 分享生活的快乐的日常生活。
   tips: 随时随地，分享生活
   buttonText: 关于我
   buttonLink: /about/
@@ -7,11 +7,11 @@
   home_essay: true
   top_background: https://i.gob.us.kg/2024/10/27/805615.webp
   essay_list:
-    - content: 安知鱼主题指南
-      date: 2023/09/09
-      video:
-        - https://player.bilibili.com/player.html?aid=226886152&bvid=BV1Ch41137tR&cid=1081639816&p=1&autoplay=0
     - content: 学校晚霞
       date: 2024/11/7 18:00:00
       image:
         - https://i.gob.us.kg/2024/11/07/141849.webp
+    - content: WebP Cloud免费额度被刷完，还超了点，幸好没睡！！！
+      date: 2024/12/8 03:50:00
+      image:
+        - https://i2.gob.us.kg/file/1733664492480.jpg
