@@ -33,8 +33,8 @@ nav:
           icon: /img/favicon.ico
     - title: 项目
       item:
-        - name: 青橘图床
-          link: https://qingju7666.serv00.net/
+        - name: Mark图床
+          link: https://lbb.cloudns.be/
           icon: https://i2.gob.us.kg/file/1733598959486_lbbtclogo.ico
         - name: TG图床
           link: https://i2.gob.us.kg/
@@ -149,7 +149,7 @@ favicon: /favicon.ico
 
 # Avatar (头像)
 avatar:
-  img: https://i.gob.us.kg/2024/12/02/534301.webp
+  img: https://i.juz.us.kg/2024/12/23/515493.webp
   effect: false
 
 # Disable all banner image
@@ -182,7 +182,7 @@ error_img:
 error_404:
   enable: true
   subtitle: "没找到哦"
-  background: https://i.gob.us.kg/2024/10/27/134144.webp
+  background: https://i.juz.us.kg/2024/12/23/084764.webp
 
 post_meta:
   page: # Home Page
@@ -255,10 +255,10 @@ post_copyright:
 reward:
   enable: true
   QR_code:
-    - img: https://i.gob.us.kg/2024/11/02/891970.png
+    - img: https://i.juz.us.kg/2024/12/23/166786.webp
       link:
       text: 微信
-    - img: https://i.gob.us.kg/2024/11/02/566566.png
+    - img: https://i.juz.us.kg/2024/12/23/984350.webp
       link:
       text: 支付宝
 
@@ -806,7 +806,7 @@ preloader:
   source: 3
   # pace theme (see https://codebyzach.github.io/pace/)
   pace_css_url:
-  avatar: https://i.gob.us.kg/2024/12/02/534301.webp # 自定加载动画义头像
+  avatar: https://i.juz.us.kg/2024/12/23/515493.webp # 自定加载动画义头像
 
 # aside (侧边栏)
 # --------------------------------------
@@ -1111,7 +1111,7 @@ friends_lite:
   private_api_url: https://friend.gob.us.kg/               # 获取json的API URL  
   page_turning_number: 20                              # 每页显示的文章数量  
   error_img: /img/404.jpg  # 404图片 URL  
-  top_background: https://i.gob.us.kg/2024/11/10/794608.webp  # 顶部背景图片 URL  
+  top_background: https://i.juz.us.kg/2024/12/23/740002.webp  # 顶部背景图片 URL  
   top_tips: 使用 轻量友链朋友圈 订阅友链最新文章        # 顶部提示文本
 
 # 深色模式粒子效果canvas
@@ -1251,7 +1251,7 @@ rightClickMenu:
 # 首页随便逛逛people模式 而非技能点模式，关闭后为技能点模式需要配置creativity.yml
 peoplecanvas:
   enable: true
-  img: https://i2.gob.us.kg/file/1732775824222_people.png #https://jsd.cdn.zzko.cn/gh/Lbb886/picx-images-hosting@master/1.7zqfr1wcpt.webp
+  img: https://i.juz.us.kg/2024/12/23/707808.webp #https://jsd.cdn.zzko.cn/gh/Lbb886/picx-images-hosting@master/1.7zqfr1wcpt.webp
 
 # 动效
 dynamicEffect:

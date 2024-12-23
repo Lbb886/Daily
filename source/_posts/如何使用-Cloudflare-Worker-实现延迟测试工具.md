@@ -7,7 +7,7 @@ tags:
 categories:
   - 网络性能
   - 教程
-cover: 'https://i.gob.us.kg/2024/11/03/396273.png'
+cover: 'https://i.juz.us.kg/2024/12/23/797927.webp'
 abbrlink: 29222
 date: 2024-11-03 09:24:33
 ---
@@ -104,7 +104,7 @@ async function handleRequest(request) {
 ```
 
 加载动画示例：
-![加载动画示例](https://i.gob.us.kg/2024/11/03/208932.webp)
+![加载动画示例](https://i.juz.us.kg/2024/12/23/411647.webp)
 
 ### 3. 测量延迟
 
@@ -170,7 +170,7 @@ resultElement.innerHTML += '<br>' + cfPagesMessage + '<br>' + vercelMessage;
 ```
 
 结果动画示例：
-![结果动画示例](https://i.gob.us.kg/2024/11/03/302980.webp)
+![结果动画示例](https://i.juz.us.kg/2024/12/23/410867.webp)
 
 ### 6. 完整代码 (2024-11-25优化了一下代码)
 

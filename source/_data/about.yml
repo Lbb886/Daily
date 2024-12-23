@@ -1,6 +1,6 @@
 - class_name: 关于页
   subtitle: 生活明朗，万物可爱✨
-  avatarImg: https://i.gob.us.kg/2024/12/02/534301.webp
+  avatarImg: https://i.juz.us.kg/2024/12/23/515493.webp
   avatarSkills:
     left:
       - 🤖️ 数码科技爱好者
@@ -24,16 +24,16 @@
   careers:
     tips: 生涯
     title: 无限进步
-    img: https://i.gob.us.kg/2024/10/27/440898.webp
+    img: https://i.juz.us.kg/2024/12/23/942483.webp
   statistic:
     link: /archives
     text: 文章隧道
-    cover: https://i.gob.us.kg/2024/10/27/524779.webp
+    cover: https://i.juz.us.kg/2024/12/23/263777.webp
   map:
     title: 我现在住在
     StrengthenTitle: 中国，南昌
-    background: https://i.gob.us.kg/2024/11/02/311446.png
-    backgroundDark: https://i.gob.us.kg/2024/11/02/382025.png
+    background: https://i.juz.us.kg/2024/12/23/489436.webp
+    backgroundDark: https://i.juz.us.kg/2024/12/23/470007.webp
   selfInfo:
     selfInfoTips1: 生于
     selfInfoContentYear: 2005
@@ -44,18 +44,18 @@
   personalities:
     author_name: 调停者
     personality_type: INFP-T
-    photo_url: https://i.gob.us.kg/2024/10/27/157164.webp
-    personality_img: https://i.gob.us.kg/2024/11/02/784890.png
+    photo_url: https://i.juz.us.kg/2024/12/23/263777.webp
+    personality_img: https://i.juz.us.kg/2024/12/23/355533.webp
     name_url: https://www.16personalities.com/ch/infp-%E4%BA%BA%E6%A0%BC
   like:
     like_tips: 关注偏好
     like_title: 数码科技
-    like_bg: https://i.gob.us.kg/2024/11/10/077317.png
+    like_bg: https://i.juz.us.kg/2024/12/23/197883.webp
     like_bottom: 手机、电脑软硬件
   music:
     music_tips: 音乐偏好
     music_title: 薛之谦
-    music_bg: https://i.gob.us.kg/2024/11/17/479048.webp
+    music_bg: https://i.juz.us.kg/2024/12/23/386443.webp
     music_link: /music
   maxim:
     maxim_tips: 座右铭
@@ -75,15 +75,15 @@
     comic_title: 写真
     comic_list:
       - name: 美女
-        cover: https://i.gob.us.kg/2024/11/17/471705.webp
+        cover: https://i.juz.us.kg/2024/12/23/044060.webp
       - name: 美女
-        cover: https://i.gob.us.kg/2024/11/17/220282.webp
+        cover: https://i.juz.us.kg/2024/12/23/309779.webp
       - name: 美女
-        cover: https://i.gob.us.kg/2024/11/17/366430.webp
+        cover: https://i.juz.us.kg/2024/12/23/841591.webp
       - name: 美女
-        cover: https://i.gob.us.kg/2024/11/17/293430.webp
+        cover: https://i.juz.us.kg/2024/12/23/089884.webp
       - name: 美女
-        cover: https://i.gob.us.kg/2024/11/17/443070.webp
+        cover: https://i.juz.us.kg/2024/12/23/333263.webp
   reward_list:
     - name: lbb
       amount: 99

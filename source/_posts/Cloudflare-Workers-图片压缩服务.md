@@ -7,7 +7,7 @@ tags:
 categories:
   - 图片处理
   - 无服务器架构
-cover: 'https://i.gob.us.kg/2024/11/02/399227.png'
+cover: 'https://i.juz.us.kg/2024/12/23/104086.webp'
 abbrlink: 45395
 date: 2024-10-26 22:15:41
 ---
