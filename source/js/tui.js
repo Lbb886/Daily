@@ -6,8 +6,8 @@ function initFooterAnimal() {
     footerAnimal.id = 'footer-animal';
     footerAnimal.innerHTML = `
         <img class="animal entered loaded"
-            src="https://i.gob.us.kg/2024/11/02/138089.webp"
-            alt="动物" />
+            src="https://i.juz.us.kg/2024/12/23/707808.webp"
+            alt="tui" />
     `;
     
     footerBar.insertAdjacentElement('beforebegin', footerAnimal);
