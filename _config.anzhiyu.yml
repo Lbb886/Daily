@@ -33,22 +33,19 @@ nav:
           icon: /img/favicon.ico
     - title: 项目
       item:
-        - name: LBB图床
-          link: https://lbb.cloudns.be/
+        - name: 青橘图床
+          link: https://qingju7666.serv00.net/
           icon: https://i2.gob.us.kg/file/1733598959486_lbbtclogo.ico
         - name: TG图床
           link: https://i2.gob.us.kg/
           icon: https://i2.gob.us.kg/file/1733598849360_tgtclogo.png
         - name: Alist
-          link: https://lbb.myfw.us/
-          icon: https://i2.gob.us.kg/file/1733598692183_alistlogo.svg
-        - name: ourvps
-          link: https://seven.cloudns.be/
-          icon: https://i2.gob.us.kg/file/1733598695541_ourvpslogo.svg
-        - name: Webssh
           link: https://lbb.serv00.net/
-          icon: https://i2.gob.us.kg/file/1733600793276_websshlogo.png
-
+          icon: https://i2.gob.us.kg/file/1733598692183_alistlogo.svg
+        - name: Mark-vps
+          link: https://lbb.myfw.us/
+          icon: https://i2.gob.us.kg/file/1733598695541_ourvpslogo.svg
+        
 # mourn （哀悼日，指定日期网站简单变灰，不包括滚动条）
 # 注意： 仅网站首页变灰，其他页面正常显示
 mourn:
