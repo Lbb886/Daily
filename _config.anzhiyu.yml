@@ -29,22 +29,13 @@ nav:
     - title: 网页
       item:
         - name: 主页
-          link: https://www.gob.us.kg/
+          link: https://200536.xyz/
           icon: /img/favicon.ico
     - title: 项目
       item:
-        - name: Mark图床
+        - name: 图床
           link: https://lbb.cloudns.be/
           icon: https://i2.gob.us.kg/file/1733598959486_lbbtclogo.ico
-        - name: TG图床
-          link: https://i2.gob.us.kg/
-          icon: https://i2.gob.us.kg/file/1733598849360_tgtclogo.png
-        - name: Alist
-          link: https://lbb.serv00.net/
-          icon: https://i2.gob.us.kg/file/1733598692183_alistlogo.svg
-        - name: Mark-vps
-          link: https://lbb.myfw.us/
-          icon: https://i2.gob.us.kg/file/1733598695541_ourvpslogo.svg
         
 # mourn （哀悼日，指定日期网站简单变灰，不包括滚动条）
 # 注意： 仅网站首页变灰，其他页面正常显示
@@ -149,7 +140,7 @@ favicon: /favicon.ico
 
 # Avatar (头像)
 avatar:
-  img: https://i.juz.us.kg/2024/12/23/515493.webp
+  img: https://i.200536.xyz/2025/02/24/490158.webp
   effect: false
 
 # Disable all banner image
