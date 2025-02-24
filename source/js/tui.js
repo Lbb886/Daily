@@ -6,7 +6,7 @@ function initFooterAnimal() {
     footerAnimal.id = 'footer-animal';
     footerAnimal.innerHTML = `
         <img class="animal entered loaded"
-            src="https://i.juz.us.kg/2024/12/23/707808.webp"
+            src="https://i.200536.xyz/2025/02/24/677645.webp"
             alt="tui" />
     `;
     
