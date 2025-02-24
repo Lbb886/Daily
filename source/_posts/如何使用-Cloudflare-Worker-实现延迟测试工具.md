@@ -7,7 +7,7 @@ tags:
 categories:
   - 网络性能
   - 教程
-cover: 'https://i.juz.us.kg/2024/12/23/797927.webp'
+cover: 'https://i.200536.xyz/2025/02/24/986782.webp'
 abbrlink: 29222
 date: 2024-11-03 09:24:33
 ---

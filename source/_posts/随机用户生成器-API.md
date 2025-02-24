@@ -7,7 +7,7 @@ tags:
 categories:
   - 开发工具
   - API
-cover: 'https://i.juz.us.kg/2024/12/23/311889.webp'
+cover: 'https://i.200536.xyz/2025/02/24/076598.webp'
 abbrlink: 46801
 date: 2024-10-27 14:28:21
 ---
