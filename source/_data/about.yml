@@ -24,16 +24,16 @@
   careers:
     tips: 生涯
     title: 无限进步
-    img: https://i.juz.us.kg/2024/12/23/942483.webp
+    img: 
   statistic:
     link: /archives
     text: 文章隧道
-    cover: https://i.juz.us.kg/2024/12/23/263777.webp
+    cover: 
   map:
     title: 我现在住在
     StrengthenTitle: 中国，南昌
-    background: https://i.juz.us.kg/2024/12/23/489436.webp
-    backgroundDark: https://i.juz.us.kg/2024/12/23/470007.webp
+    background: 
+    backgroundDark: 
   selfInfo:
     selfInfoTips1: 生于
     selfInfoContentYear: 2005
@@ -44,18 +44,18 @@
   personalities:
     author_name: 调停者
     personality_type: INFP-T
-    photo_url: https://i.juz.us.kg/2024/12/23/263777.webp
-    personality_img: https://i.juz.us.kg/2024/12/23/355533.webp
+    photo_url: 
+    personality_img: 
     name_url: https://www.16personalities.com/ch/infp-%E4%BA%BA%E6%A0%BC
   like:
     like_tips: 关注偏好
     like_title: 数码科技
-    like_bg: https://i.juz.us.kg/2024/12/23/197883.webp
+    like_bg: 
     like_bottom: 手机、电脑软硬件
   music:
     music_tips: 音乐偏好
     music_title: 薛之谦
-    music_bg: https://i.juz.us.kg/2024/12/23/386443.webp
+    music_bg: 
     music_link: /music
   maxim:
     maxim_tips: 座右铭
@@ -63,27 +63,27 @@
     maxim_bottom: 万物可爱。
   buff:
     buff_tips: 特长
-    buff_top: 酸菜鱼
+    buff_top: 菜鱼
     buff_bottom: 
   game:
     game_tips: 爱好游戏
     game_title: CSGO
-    game_uid: "LBB(下饭版)"
-    game_bg: https://i2.gob.us.kg/file/1732779354615_steam.svg
+    game_uid: "青橘"
+    game_bg: 
   comic:
-    comic_tips: 爱好妹子
-    comic_title: 写真
+    comic_tips: 爱好嘿嘿
+    comic_title: 风景线
     comic_list:
       - name: 美女
-        cover: https://i.juz.us.kg/2024/12/23/044060.webp
+        cover: 
       - name: 美女
-        cover: https://i.juz.us.kg/2024/12/23/309779.webp
+        cover: 
       - name: 美女
-        cover: https://i.juz.us.kg/2024/12/23/841591.webp
+        cover: 
       - name: 美女
-        cover: https://i.juz.us.kg/2024/12/23/089884.webp
+        cover: 
       - name: 美女
-        cover: https://i.juz.us.kg/2024/12/23/333263.webp
+        cover: 
   reward_list:
     - name: lbb
       amount: 99

@@ -5,13 +5,7 @@
   buttonLink: /about/
   limit: 30
   home_essay: true
-  top_background: https://i.juz.us.kg/2024/12/23/134101.webp
+  top_background: 
   essay_list:
-    - content: 学校晚霞
-      date: 2024/11/7 18:00:00
-      image:
-        - https://i.juz.us.kg/2024/12/23/913408.webp
-    - content: WebP Cloud免费额度被刷完，还超了点，幸好没睡！！！
-      date: 2024/12/8 03:50:00
-      image:
-        - https://i2.gob.us.kg/file/1733664492480.jpg
+    - content: 重建中～
+      date: 2025/02/25 00:00:00
