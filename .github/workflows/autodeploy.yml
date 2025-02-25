@@ -74,8 +74,8 @@ jobs:
       - name: Deploy to FTP
         uses: SamKirkland/FTP-Deploy-Action@4.1.0
         with:
-          server: ftp://140.245.61.88:21
+          server: 140.245.61.88:21
           username: blog
-          password: dyJYSbt3ke5E4ah7
+          password: lbb666
           local-dir: ./public/
           server-dir: ./
