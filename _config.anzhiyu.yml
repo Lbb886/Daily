@@ -140,7 +140,7 @@ favicon: /favicon.ico
 
 # Avatar (头像)
 avatar:
-  img: https://i.200536.xyz/2025/02/24/490158.webp
+  img: https://ic.200536.xyz/2025/02/24/490158.webp
   effect: false
 
 # Disable all banner image
@@ -173,7 +173,7 @@ error_img:
 error_404:
   enable: true
   subtitle: "没找到哦"
-  background: https://i.200536.xyz/2025/02/24/220657.webp
+  background: https://ic.200536.xyz/2025/02/24/220657.webp
 
 post_meta:
   page: # Home Page
@@ -448,7 +448,7 @@ footer:
         shields: https://npm.elemecdn.com/anzhiyu-theme-static@1.0.9/img/Theme-AnZhiYu-2E67D3.svg
         message: 本站使用AnZhiYu主题
       - link: https://icp.gov.moe/?keyword=20246090/
-        shields: https://i.200536.xyz/2025/02/24/000808.svg
+        shields: https://ic.200536.xyz/2025/02/24/000808.svg
         message: 萌ICP备20246090号
       - link: https://github.com/
         shields: https://npm.elemecdn.com/anzhiyu-blog@2.1.5/img/badge/Source-Github.svg
@@ -457,7 +457,7 @@ footer:
         shields: https://api.netlify.com/api/v1/badges/37d1c5ee-5b1d-4675-914c-875488065d1e/deploy-status
         message: Netlify Status
       - link: https://travel.moe/go.html?travel=on/
-        shields: https://i.200536.xyz/2025/02/24/187889.svg
+        shields: https://ic.200536.xyz/2025/02/24/187889.svg
         message: 异次元之旅--跃迁--我们一起去萌站成员的星球旅行吧!
   socialBar:
     enable: true
@@ -797,7 +797,7 @@ preloader:
   source: 3
   # pace theme (see https://codebyzach.github.io/pace/)
   pace_css_url:
-  avatar: https://i.200536.xyz/2025/02/24/490158.webp # 自定加载动画义头像
+  avatar: https://ic.200536.xyz/2025/02/24/490158.webp # 自定加载动画义头像
 
 # aside (侧边栏)
 # --------------------------------------
@@ -1102,7 +1102,7 @@ friends_lite:
   private_api_url: https://friend-circle-lite-rho-two.vercel.app/               # 获取json的API URL  
   page_turning_number: 20                              # 每页显示的文章数量  
   error_img: /img/404.jpg  # 404图片 URL  
-  top_background: https://i.200536.xyz/2025/02/24/061726.webp  # 顶部背景图片 URL  
+  top_background: https://ic.200536.xyz/2025/02/24/061726.webp  # 顶部背景图片 URL  
   top_tips: 使用 轻量友链朋友圈 订阅友链最新文章        # 顶部提示文本
 
 # 深色模式粒子效果canvas
@@ -1242,7 +1242,7 @@ rightClickMenu:
 # 首页随便逛逛people模式 而非技能点模式，关闭后为技能点模式需要配置creativity.yml
 peoplecanvas:
   enable: true
-  img: https://i.200536.xyz/2025/02/24/740848.webp #https://jsd.cdn.zzko.cn/gh/Lbb886/picx-images-hosting@master/1.7zqfr1wcpt.webp
+  img: https://ic.200536.xyz/2025/02/24/740848.webp #https://jsd.cdn.zzko.cn/gh/Lbb886/picx-images-hosting@master/1.7zqfr1wcpt.webp
 
 # 动效
 dynamicEffect:
