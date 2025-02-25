@@ -77,5 +77,5 @@ jobs:
           server: 140.245.61.88:21
           username: blog
           password: dyJYSbt3ke5E4ah7
-          local-dir: ./public
+          local-dir: ./public/
           server-dir: ./
