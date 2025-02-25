@@ -1123,6 +1123,14 @@ LA:
   ck:
   LingQueMonitorID:
 
+# Umami
+Umami:
+  enable: true # 开关
+  umami_url_js: http://140.245.61.88:3100/script.js # 填写 umami js地址 可以使用第三方CDN加速但需要配置下面的 umami_url
+  umami_id: 38adaf67-613e-4dc4-b1c4-be2645721475 # 填写 umami 统计 ID
+  umami_api: https://um.lbb886.nyc.mn/ # 填写 umami API 地址
+  umami_url: # https://um.ruom.top 填写 umami 服务器地址 使用 CDN 加速 Umami 静态资源后需配置此项
+
 # 标签卖萌
 diytitle:
   enable: true

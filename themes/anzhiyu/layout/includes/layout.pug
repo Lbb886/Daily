@@ -89,3 +89,10 @@ html(lang=config.language data-theme=theme.display_mode class=htmlClassHideAside
 
     //- 弹窗通知
     !=partial('includes/popup/index', {}, {cache: true})
+
+    //- Umami
+    if theme.Umami
+      if theme.Umami.umami_url
+        script(async defer src=`${theme.Umami.umami_url_js}` data-website-id=`${theme.Umami.umami_id}` data-host-url=`${theme.Umami.umami_url}`)
+      else
+        script(async defer src=`${theme.Umami.umami_url_js}` data-website-id=`${theme.Umami.umami_id}`)
