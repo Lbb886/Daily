@@ -75,7 +75,7 @@ jobs:
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
           server: 140.245.61.88
-          username: blog
-          password: lbb666
+          username: daily
+          password: daily6
           local-dir: ./public/
           server-dir: ./
