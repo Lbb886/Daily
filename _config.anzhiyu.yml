@@ -360,7 +360,7 @@ waline:
 # Twikoo
 # https://github.com/imaegoo/twikoo
 twikoo:
-  envId: https://twikoo-three-khaki-98.vercel.app/
+  envId: https://pl.lbb886.nyc.mn
   region:
   visitor: false
   option:
@@ -1263,6 +1263,8 @@ inject:
     # - <script src="/js/xxx"></script>
     - <script src="/js/tui.js" defer></script>
     - <script src="/js/countdown.js"></script>
+    - <script src="/js/comments.js"></script>
+
 
 # CDN
 # Don't modify the following settings unless you know how they work
