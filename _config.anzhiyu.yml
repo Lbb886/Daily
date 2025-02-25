@@ -1262,6 +1262,7 @@ inject:
     # 自定义js
     # - <script src="/js/xxx"></script>
     - <script src="/js/tui.js" defer></script>
+    - <script src="/js/countdown.js"></script>
 
 # CDN
 # Don't modify the following settings unless you know how they work
