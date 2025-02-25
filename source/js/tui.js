@@ -6,7 +6,7 @@ function initFooterAnimal() {
     footerAnimal.id = 'footer-animal';
     footerAnimal.innerHTML = `
         <img class="animal entered loaded"
-            src="https://i.200536.xyz/2025/02/24/677645.webp"
+            src="https://ic.200536.xyz/2025/02/24/677645.webp"
             alt="tui" />
     `;
     
@@ -23,7 +23,7 @@ function initFooterAnimal() {
             bottom: 0;
             width: 100%;
             height: 36px;
-            background: url(https://i.200536.xyz/2025/02/24/249224.webp) repeat center / auto 100%;
+            background: url(https://ic.200536.xyz/2025/02/24/249224.webp) repeat center / auto 100%;
             box-shadow: 0 4px 7px rgba(0,0,0,.15);
         }
         .animal {

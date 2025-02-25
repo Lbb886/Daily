@@ -9,7 +9,7 @@ categories:
   - 技术
   - 软件
   - 开源项目
-cover: 'https://i.200536.xyz/2025/02/24/158957.webp'
+cover: 'https://ic.200536.xyz/2025/02/24/158957.webp'
 abbrlink: 19457
 date: 2024-10-26 00:24:03
 ---
