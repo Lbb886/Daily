@@ -71,11 +71,11 @@ jobs:
           branch: main
           folder: public
           commit-message: "${{ github.event.head_commit.message }} Updated By Github Actions"
-#      - name: ftp部署到服务器
-#        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
-#        with:
-#          server: 47.245.13.48
-#          username: blog
-#          password: blog666
-#          local-dir: ./public/
-#          server-dir: ./
+      - name: ftp部署到服务器
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: 47.245.13.48
+          username: blog
+          password: blog666
+          local-dir: ./public/
+          server-dir: ./

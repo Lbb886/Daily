@@ -73,6 +73,8 @@ if site.data.about
                         .skill-name
                           span=item.name 
                   .etc ...
+            if skillsTips.img
+              img.author-content-img.no-lightbox(alt=skillsTips.tips, src=url_for(skillsTips.img) onerror=`this.onerror=null;this.src='` + url_for(theme.error_img.flink) + `'`)
         .author-content-item.careers
           .card-content
             .author-content-item-tips=careers.tips
