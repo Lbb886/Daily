@@ -4,21 +4,21 @@ menu:
     分类: /categories/ || anzhiyu-icon-shapes
     标签: /tags/ || anzhiyu-icon-tags
 
-  友链:
-    友人帐: /link/ || anzhiyu-icon-link
+  好友:
+    友链: /link/ || anzhiyu-icon-link
     朋友圈: /fcircle/ || anzhiyu-icon-artstation
   #   留言板: /comments/ || anzhiyu-icon-envelope
 
   我的:
     音乐馆: /music/ || anzhiyu-icon-music
+    闲言碎语: /essay/ || anzhiyu-icon-lightbulb
   #   追番页: /bangumis/ || anzhiyu-icon-bilibili
   #   相册集: /album/ || anzhiyu-icon-images
   #   小空调: /air-conditioner/ || anzhiyu-icon-fan
 
-  关于:
-    关于本人: /about/ || anzhiyu-icon-paper-plane
-    闲言碎语: /essay/ || anzhiyu-icon-lightbulb
-    随便逛逛: javascript:toRandomPost() || anzhiyu-icon-shoe-prints1
+  关于我: /about/ || anzhiyu-icon-paper-plane
+
+  随便逛逛: javascript:toRandomPost() || anzhiyu-icon-shoe-prints1
 
 # nav相关配置
 nav:
@@ -605,11 +605,11 @@ google_adsense:
 
 site_verification:
   - name: google-site-verification
-    content: xxx
+    content: Yj5VTEetAM911Jh5RRi4xvu8jJaJELI9WTiD16l3jXs
   - name: baidu-site-verification
     content: code-xxx
   - name: msvalidate.01
-    content: xxx
+    content: 3255CDAC61EC57062E73CF54C994A99A
 
 # Beautify/Effect (美化/效果)
 # --------------------------------------
@@ -1056,9 +1056,9 @@ css_prefix: true
 home_top:
   enable: true # 开关
   timemode: date #date/updated
-  title: 生活明朗
-  subTitle: 万物可爱。
-  siteText: anheyu.com
+  title: 你好，世界！
+  subTitle: 一个爱折腾的小伙子
+  siteText: 200536.xyz
   category:
     - name: 友人
       path: /link/
@@ -1081,10 +1081,10 @@ home_top:
     swiper_css: https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/swiper/swiper.min.css #swiper css依赖
     swiper_js: https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/swiper/swiper.min.js #swiper js依赖
   banner:
-    tips: 安知鱼主题
-    title: Theme-AnZhiYu
-    image: https://bu.dusays.com/2023/05/13/645fa3cf90d70.webp
-    link: https://docs.anheyu.com/
+    tips: 欢迎来到我的小站
+    title: Mark
+    image: https://ic.200536.xyz/2025/02/24/830108.webp
+    link: https://blog.200536.xyz/about
 
 # 朋友圈配置
 friends_vue:
@@ -1097,9 +1097,9 @@ friends_vue:
 # Lite朋友圈配置
 friends_lite:
   enable: true
-  fclite_css_url: https://friend-circle-lite-rho-two.vercel.app/main/fclite.css  # 轻量朋友圈的CSS
-  fclite_js_url: https://friend-circle-lite-rho-two.vercel.app/main/fclite.js    # 轻量朋友圈的js
-  private_api_url: https://friend-circle-lite-rho-two.vercel.app/               # 获取json的API URL  
+  fclite_css_url: https://friend.lbb886.nyc.mn/main/fclite.css  # 轻量朋友圈的CSS
+  fclite_js_url: https://friend.lbb886.nyc.mn/main/fclite.js    # 轻量朋友圈的js
+  private_api_url: https://friend.lbb886.nyc.mn/               # 获取json的API URL  
   page_turning_number: 20                              # 每页显示的文章数量  
   error_img: /img/404.jpg  # 404图片 URL  
   top_background: https://ic.200536.xyz/2025/02/24/061726.webp  # 顶部背景图片 URL  
