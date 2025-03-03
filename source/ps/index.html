@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>密码管理器</title>
+    <style>
+        :root { font-family: system-ui, sans-serif; }
+        .container { max-width: 800px; margin: 2rem auto; padding: 1rem; }
+        input, button { padding: 0.5rem; margin: 0.25rem; }
+        .error { color: darkred; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>安全保险库</h1>
+        
+        <div>
+            <input type="password" id="masterPassword" placeholder="主密码">
+            <button onclick="handleLogin()">解锁</button>
+        </div>
+
+        <div id="vault" style="display: none;">
+            <h3>新增密码项</h3>
+            <input type="text" id="service" placeholder="服务名称">
+            <input type="text" id="username" placeholder="用户名">
+            <input type="password" id="password" placeholder="密码">
+            <button onclick="saveEntry()">保存</button>
+
+            <h3>已保存项</h3>
+            <ul id="entries"></ul>
+        </div>
+
+        <p id="error" class="error"></p>
+    </div>
+
+    <script>
+        const workerUrl = 'https://ps.qingju7.workers.dev';
+        let cryptoKey = null;
+
+        // 生成密钥（基于主密码）
+        async function deriveKey(masterPassword, salt) {
+            const encoder = new TextEncoder();
+            const baseKey = await window.crypto.subtle.importKey(
+                "raw",
+                encoder.encode(masterPassword),
+                { name: "PBKDF2" },
+                false,
+                ["deriveBits"]
+            );
+
+            return window.crypto.subtle.deriveKey(
+                {
+                    name: "PBKDF2",
+                    salt: salt,
+                    iterations: 600000,
+                    hash: "SHA-512"
+                },
+                baseKey,
+                { name: "AES-GCM", length: 256 },
+                true,
+                ["encrypt", "decrypt"]
+            );
+        }
+
+        // 加密数据
+        async function encryptData(data, key) {
+            const iv = window.crypto.getRandomValues(new Uint8Array(12));
+            const encoder = new TextEncoder();
+            const ciphertext = await window.crypto.subtle.encrypt(
+                {
+                    name: "AES-GCM",
+                    iv: iv
+                },
+                key,
+                encoder.encode(JSON.stringify(data))
+            );
+            
+            return {
+                iv: Array.from(iv),
+                data: Array.from(new Uint8Array(ciphertext))
+            };
+        }
+
+        // 解密数据
+        async function decryptData(encrypted, key) {
+            const decrypted = await window.crypto.subtle.decrypt(
+                {
+                    name: "AES-GCM",
+                    iv: new Uint8Array(encrypted.iv)
+                },
+                key,
+                new Uint8Array(encrypted.data)
+            );
+            
+            return JSON.parse(new TextDecoder().decode(decrypted));
+        }
+
+        // 主登录逻辑
+        async function handleLogin() {
+            try {
+                const masterPassword = document.getElementById('masterPassword').value;
+                if (!masterPassword || masterPassword.length < 12) {
+                    throw new Error("主密码需要至少12个字符");
+                }
+
+                // 获取或初始化用户加密存储
+                const response = await fetch(`${workerUrl}/init`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ user: 'current-user' })
+                });
+                
+                const { encryptedData, salt } = await response.json();
+                const saltBuffer = Uint8Array.from(atob(salt), c => c.charCodeAt(0));
+
+                // 派生密钥
+                cryptoKey = await deriveKey(masterPassword, saltBuffer);
+
+                // 尝试解密数据验证密码
+                if (encryptedData) {
+                    await decryptData(encryptedData, cryptoKey);
+                    showMessage("验证成功");
+                }
+
+                document.getElementById('vault').style.display = 'block';
+                await loadEntries();
+            } catch (err) {
+                showError(err.message);
+            }
+        }
+
+        // 保存新密码项
+        async function saveEntry() {
+            const entry = {
+                service: document.getElementById('service').value,
+                username: document.getElementById('username').value,
+                password: document.getElementById('password').value,
+                timestamp: new Date().toISOString()
+            };
+
+            // 加密数据
+            const encrypted = await encryptData(entry, cryptoKey);
+            
+            await fetch(`${workerUrl}/save`, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(encrypted)
+            });
+
+            await loadEntries();
+        }
+
+        // 加载已保存项
+        async function loadEntries() {
+            const response = await fetch(`${workerUrl}/load`);
+            const encryptedData = await response.json();
+            
+            const entriesList = document.getElementById('entries');
+            entriesList.innerHTML = "";
+            
+            try {
+                const decrypted = await decryptData(encryptedData, cryptoKey);
+                decrypted.forEach(entry => {
+                    const li = document.createElement('li');
+                    li.innerHTML = `
+                        <strong>${entry.service}</strong><br>
+                        用户名: ${entry.username}<br>
+                        密码: <span class="pass">•••••</span>
+                    `;
+                    entriesList.appendChild(li);
+                });
+            } catch (err) {
+                showError("解密失败，请确认主密码正确");
+            }
+        }
+
+        function showMessage(msg) {
+            document.getElementById('error').textContent = msg;
+        }
+
+        function showError(err) {
+            document.getElementById('error').textContent = err;
+            document.getElementById('vault').style.display = 'none';
+            cryptoKey = null;
+        }
+    </script>
+</body>
+</html>
