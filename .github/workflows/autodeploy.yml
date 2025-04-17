@@ -57,7 +57,7 @@ jobs:
       - name: 部署到public分支
         uses: JamesIves/github-pages-deploy-action@v4.6.4
         with:
-          token: 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
+          token: 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
           repository-name: Lbb886/Daily
           branch: public
           folder: public
@@ -66,7 +66,7 @@ jobs:
       - name: 部署到Github pages
         uses: JamesIves/github-pages-deploy-action@v4.6.4
         with:
-          token: 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
+          token: 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
           repository-name: Lbb886/Lbb886.github.io
           branch: main
           folder: public
