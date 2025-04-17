@@ -9,6 +9,10 @@ menu:
     朋友圈: /fcircle/ || anzhiyu-icon-artstation
   #   留言板: /comments/ || anzhiyu-icon-envelope
 
+  随便逛逛: javascript:toRandomPost() || anzhiyu-icon-shoe-prints1
+
+  关于我: /about/ || anzhiyu-icon-paper-plane
+
   我的:
     音乐馆: /music/ || anzhiyu-icon-music
     闲言碎语: /essay/ || anzhiyu-icon-lightbulb
@@ -16,9 +20,9 @@ menu:
   #   相册集: /album/ || anzhiyu-icon-images
   #   小空调: /air-conditioner/ || anzhiyu-icon-fan
 
-  关于我: /about/ || anzhiyu-icon-paper-plane
+  
 
-  随便逛逛: javascript:toRandomPost() || anzhiyu-icon-shoe-prints1
+  
 
 # nav相关配置
 nav:
