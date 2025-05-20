@@ -85,9 +85,9 @@
   
     const LatestComments = {
       API_URL: 'https://pl.lbb886.nyc.mn',
-      ADMIN_EMAIL_MD5: '1a56331ba53ae53aebf8114ebd62e804',
+      ADMIN_EMAIL_MD5: '',
       PAGE_SIZE: 5,
-      LOADING_GIF: 'https://lib.bsgun.cn/Hexo-static/img/loading.gif',
+      LOADING_GIF: '',
     
       async fetchComments() {
         const controller = new AbortController();
