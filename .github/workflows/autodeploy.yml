@@ -74,8 +74,8 @@ jobs:
       - name: ftp部署到服务器
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
-          server: 47.245.13.48
-          username: blog
-          password: blog666
+          server: 202.61.247.141
+          username: njuv
+          password: fMr2xTcaz7cSjPDC
           local-dir: ./public/
           server-dir: ./
