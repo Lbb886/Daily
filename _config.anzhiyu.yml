@@ -141,7 +141,7 @@ favicon: /favicon.ico
 
 # Avatar (头像)
 avatar:
-  img: https://ic.200536.xyz/2025/02/24/490158.webp
+  img: https://xsx.xx.kg/file/SXkMjFbU.webp
   effect: false
 
 # Disable all banner image
@@ -449,7 +449,7 @@ footer:
         shields: https://npm.elemecdn.com/anzhiyu-theme-static@1.0.9/img/Theme-AnZhiYu-2E67D3.svg
         message: 本站使用AnZhiYu主题
       - link: https://icp.gov.moe/?keyword=20246090/
-        shields: https://ic.200536.xyz/2025/02/24/000808.svg
+        shields: https://xsx.xx.kg/file/TOp86LAp.svg
         message: 萌ICP备20246090号
       - link: https://github.com/
         shields: https://npm.elemecdn.com/anzhiyu-blog@2.1.5/img/badge/Source-Github.svg
@@ -458,7 +458,7 @@ footer:
         shields: https://api.netlify.com/api/v1/badges/37d1c5ee-5b1d-4675-914c-875488065d1e/deploy-status
         message: Netlify Status
       - link: https://travel.moe/go.html?travel=on/
-        shields: https://ic.200536.xyz/2025/02/24/187889.svg
+        shields: https://xsx.xx.kg/file/falhbE6f.svg
         message: 异次元之旅--跃迁--我们一起去萌站成员的星球旅行吧!
   socialBar:
     enable: true
