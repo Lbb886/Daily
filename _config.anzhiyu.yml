@@ -174,7 +174,7 @@ error_img:
 error_404:
   enable: true
   subtitle: "没找到哦"
-  background: https://ic.200536.xyz/2025/02/24/220657.webp
+  background: https://xsx.xx.kg/file/7Z8vlcf1.webp
 
 post_meta:
   page: # Home Page
@@ -798,7 +798,7 @@ preloader:
   source: 3
   # pace theme (see https://codebyzach.github.io/pace/)
   pace_css_url:
-  avatar: https://ic.200536.xyz/2025/02/24/490158.webp # 自定加载动画义头像
+  avatar: https://xsx.xx.kg/file/SXkMjFbU.webp # 自定加载动画义头像
 
 # aside (侧边栏)
 # --------------------------------------
@@ -1084,7 +1084,7 @@ home_top:
   banner:
     tips: Leo
     title: 欢迎来到我的小站
-    image: https://ic.200536.xyz/2025/02/24/830108.webp
+    image: https://xsx.xx.kg/file/fkMVtIJL.webp
     link: https://blog.200536.xyz/about
 
 # 朋友圈配置
@@ -1103,7 +1103,7 @@ friends_lite:
   private_api_url: https://friend.lbb886.nyc.mn/               # 获取json的API URL  
   page_turning_number: 20                              # 每页显示的文章数量  
   error_img: /img/404.jpg  # 404图片 URL  
-  top_background: https://ic.200536.xyz/2025/02/24/061726.webp  # 顶部背景图片 URL  
+  top_background: https://xsx.xx.kg/file/iubQMgzz.webp  # 顶部背景图片 URL  
   top_tips: 使用 轻量友链朋友圈 订阅友链最新文章        # 顶部提示文本
 
 # 深色模式粒子效果canvas
@@ -1251,7 +1251,7 @@ rightClickMenu:
 # 首页随便逛逛people模式 而非技能点模式，关闭后为技能点模式需要配置creativity.yml
 peoplecanvas:
   enable: true
-  img: https://ic.200536.xyz/2025/02/24/740848.webp #https://jsd.cdn.zzko.cn/gh/Lbb886/picx-images-hosting@master/1.7zqfr1wcpt.webp
+  img: https://xsx.xx.kg/file/bTtyIS9u.webp #https://jsd.cdn.zzko.cn/gh/Lbb886/picx-images-hosting@master/1.7zqfr1wcpt.webp
 
 # 动效
 dynamicEffect:

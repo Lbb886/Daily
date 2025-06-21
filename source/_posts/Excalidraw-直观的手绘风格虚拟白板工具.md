@@ -7,7 +7,7 @@ tags:
 categories:
   - 工具类
   - 开源项目
-cover: 'https://ic.200536.xyz/2025/02/24/352043.webp'
+cover: 'https://xsx.xx.kg/file/n0l6QHuJ.webp'
 abbrlink: 15126
 date: 2024-10-27 10:54:59
 ---
