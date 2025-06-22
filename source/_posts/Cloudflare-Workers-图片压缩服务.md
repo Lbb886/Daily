@@ -7,7 +7,7 @@ tags:
 categories:
   - 图片处理
   - 无服务器架构
-cover: 'https://xsx.xx.kg/file/drjVZ70j.webp'
+cover: 'https://img.njuv.pp.ua/file/drjVZ70j.webp'
 abbrlink: 45395
 date: 2024-10-26 22:15:41
 ---
