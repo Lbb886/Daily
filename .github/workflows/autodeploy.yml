@@ -54,28 +54,28 @@ jobs:
           node link.js
           hexo generate
       
-      - name: 部署到public分支
+      - name: 部署到其他分支
         uses: JamesIves/github-pages-deploy-action@v4.6.4
         with:
-          token: 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
+          token: ${{ secrets.TOKEN }}
           repository-name: Lbb886/Daily
-          branch: public
+          branch: pages
           folder: public
           commit-message: "${{ github.event.head_commit.message }} Updated By Github Actions"
 
       - name: 部署到Github pages
         uses: JamesIves/github-pages-deploy-action@v4.6.4
         with:
-          token: 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
+          token: ${{ secrets.TOKEN }}
           repository-name: Lbb886/Lbb886.github.io
           branch: main
           folder: public
           commit-message: "${{ github.event.head_commit.message }} Updated By Github Actions"
-      - name: ftp部署到服务器
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
-        with:
-          server: 202.61.247.141
-          username: njuv
-          password: fMr2xTcaz7cSjPDC
-          local-dir: ./public/
-          server-dir: ./
+      #- name: ftp部署到服务器
+        #uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        #with:
+          #server: ${{ secrets.IP }}
+          #username: ${{ secrets.UN }}
+          #password: ${{ secrets.PW }}
+          #local-dir: ./public/
+          #server-dir: ./
