@@ -7,7 +7,7 @@ tags:
 categories:
   - 工具类
   - 开源项目
-cover: 'https://img.njuv.pp.ua/file/n0l6QHuJ.webp'
+cover: 'https://i.juz.dpdns.org/2025/06/23/182860.webp'
 abbrlink: 15126
 date: 2024-10-27 10:54:59
 ---

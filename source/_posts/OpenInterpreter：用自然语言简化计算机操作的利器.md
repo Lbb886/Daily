@@ -9,7 +9,7 @@ categories:
   - 技术
   - 软件
   - 开源项目
-cover: 'https://img.njuv.pp.ua/file/Y6wOyGR1.webp'
+cover: 'https://i.juz.dpdns.org/2025/06/23/035799.webp'
 abbrlink: 19457
 date: 2024-10-26 00:24:03
 ---

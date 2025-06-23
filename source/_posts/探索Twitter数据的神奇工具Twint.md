@@ -7,7 +7,7 @@ tags:
 categories:
   - 数据科学
   - 开源项目
-cover: 'https://img.njuv.pp.ua/file/UPpv1P4S.webp'
+cover: 'https://i.juz.dpdns.org/2025/06/23/081990.webp'
 abbrlink: 19806
 date: 2024-10-30 22:35:24
 ---
