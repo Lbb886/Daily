@@ -454,8 +454,8 @@ footer:
       - link: https://github.com/
         shields: https://npm.elemecdn.com/anzhiyu-blog@2.1.5/img/badge/Source-Github.svg
         message: 本站项目由Github托管
-      - link: https://app.netlify.com/sites/juzbo/deploys/
-        shields: https://api.netlify.com/api/v1/badges/37d1c5ee-5b1d-4675-914c-875488065d1e/deploy-status
+      - link: https://app.netlify.com/projects/leob/deploys
+        shields: https://api.netlify.com/api/v1/badges/7d9d798c-9041-4113-993a-14304fc52c79/deploy-status
         message: Netlify Status
       - link: https://travel.moe/go.html?travel=on/
         shields: https://i.juz.dpdns.org/2025/06/23/058666.svg
