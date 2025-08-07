@@ -6,7 +6,7 @@ function initFooterAnimal() {
     footerAnimal.id = 'footer-animal';
     footerAnimal.innerHTML = `
         <img class="animal entered loaded"
-            src="https://i.juz.dpdns.org/2025/06/23/945644.webp"
+            src="https://xsx.xx.kg/file/RqMVcq1h.webp"
             alt="dongwu" />
     `;
     
@@ -23,7 +23,7 @@ function initFooterAnimal() {
             bottom: 0;
             width: 100%;
             height: 36px;
-            background: url(https://i.juz.dpdns.org/2025/06/23/632596.webp) repeat center / auto 100%;
+            background: url(https://xsx.xx.kg/file/KB0PLVWu.webp) repeat center / auto 100%;
             box-shadow: 0 4px 7px rgba(0,0,0,.15);
         }
         .animal {
