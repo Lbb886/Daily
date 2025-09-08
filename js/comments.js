@@ -84,7 +84,7 @@
     };
   
     const LatestComments = {
-      API_URL: 'https://pl.lbb886.nyc.mn',
+      API_URL: 'https://twikoo.lbb886.nyc.mn',
       ADMIN_EMAIL_MD5: '',
       PAGE_SIZE: 5,
       LOADING_GIF: '',
