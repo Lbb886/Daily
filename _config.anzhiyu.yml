@@ -29,8 +29,8 @@ nav:
   menu:
     - title: 网页
       item:
-        - name: 主页
-          link: https://200536.xyz/
+        - name: 博客
+          link: https://blog.200536.xyz/
           icon: /img/favicon.ico
     - title: 项目
       item:
