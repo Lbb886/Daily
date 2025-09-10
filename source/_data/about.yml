@@ -21,15 +21,15 @@
   skillsTips:
     tips: 技能
     title: 开启创造力
-    img: 
+    img: https://xsx.xx.kg/file/7Z8vlcf1.webp
   careers:
     tips: 生涯
     title: 无限进步
-    img: 
+    img: https://xsx.xx.kg/file/fkMVtIJL.webp
   statistic:
     link: /archives
     text: 文章隧道
-    cover: https://xsx.xx.kg/file/7Z8vlcf1.webp
+    cover: https://xsx.xx.kg/file/k5pek7Tl.webp
   map:
     title: 现住在
     StrengthenTitle: 中国，南昌
@@ -46,7 +46,7 @@
     author_name: 调停者
     personality_type: INFP-T
     photo_url: https://xsx.xx.kg/file/VDRyg3up.jpg
-    personality_img: https://www.16personalities.com/static/images/personality-types/famous/diplomats_INFP_frodo_baggins_the_lord_of_the_rings.svg?v=6
+    personality_img: https://xsx.xx.kg/file/HHMNDJVE.svg
     name_url: https://www.16personalities.com/ch/infp-人格
   like:
     like_tips: 关注偏好
@@ -76,15 +76,15 @@
     comic_title: 风景线
     comic_list:
       - name: 美女
-        cover: 
+        cover: https://xsx.xx.kg/file/dyS2q3T6.jpg
       - name: 美女
-        cover: 
+        cover: https://xsx.xx.kg/file/nauTqYQv.jpg
       - name: 美女
-        cover: 
+        cover: https://xsx.xx.kg/file/1w2JYAt1.jpg
       - name: 美女
-        cover: 
+        cover: https://xsx.xx.kg/file/7DqLVG2L.jpg
       - name: 美女
-        cover: 
+        cover: https://xsx.xx.kg/file/Ilgf5pP5.jpg
   reward_list:
     - name: lbb
       amount: 99
